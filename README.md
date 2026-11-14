@@ -112,6 +112,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-HostsFile`](./Repair-HostsFile) | Restores the hosts file to an approved baseline and removes stale or malicious entries. |
 | [`Enable-UAC`](./Enable-UAC) | Turns User Account Control back on when EnableLUA was disabled locally. |
 | [`Repair-PrintSpooler`](./Repair-PrintSpooler) | Start the Print Spooler service and clear print jobs stuck in error state. |
+| [`Repair-PrimaryRefreshToken`](./Repair-PrimaryRefreshToken) | Refresh a missing or stale Primary Refresh Token for the signed-in user without a sign-out. |
 
 ### Intune agent and device health
 
