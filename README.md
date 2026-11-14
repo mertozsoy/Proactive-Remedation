@@ -212,6 +212,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-OfficeUpdateLeftovers`](./Remove-OfficeUpdateLeftovers) | Clear approved retired Office update management overrides. |
 | [`Repair-SharedComputerActivation`](./Repair-SharedComputerActivation) | Reset stale or corrupt shared computer activation licensing tokens for the signed-in user. |
 | [`Update-M365AppsMinimumBuild`](./Update-M365AppsMinimumBuild) | Detect Microsoft 365 Apps builds below an approved minimum and optionally trigger a Click-to-Run update. |
+| [`Set-TeamsForegroundStart`](./Set-TeamsForegroundStart) | Force the new Teams client to start in the foreground for the signed-in user and verify the per-user setting. |
 
 ### Network and VPN
 
