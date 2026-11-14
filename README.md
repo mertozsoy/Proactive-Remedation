@@ -98,6 +98,8 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-StaleAvRegistration`](./Remove-StaleAvRegistration) | Removes stale third-party antivirus registrations from Windows Security Center so Defender can leave passive mode. |
 | [`Remove-PerUserChromeZoom`](./Remove-PerUserChromeZoom) | Finds Chrome and Zoom installed under AppData in every user profile and removes them with the uninstall command the app registered for that user. |
 | [`Uninstall-OemTrialware`](./Uninstall-OemTrialware) | Detect selected OEM trialware and uninstall matching MSI products without restarting Windows. |
+| [`Remediate-FirewallState`](./Remediate-FirewallState) | Enable disabled local Windows Firewall profiles and verify the effective state. |
+| [`Set-PointAndPrintSecurity`](./Set-PointAndPrintSecurity) | Restore secure Point and Print values and approved print server lists. |
 
 ### Intune agent and device health
 
