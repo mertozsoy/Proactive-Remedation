@@ -100,6 +100,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Uninstall-OemTrialware`](./Uninstall-OemTrialware) | Detect selected OEM trialware and uninstall matching MSI products without restarting Windows. |
 | [`Remediate-FirewallState`](./Remediate-FirewallState) | Enable disabled local Windows Firewall profiles and verify the effective state. |
 | [`Set-PointAndPrintSecurity`](./Set-PointAndPrintSecurity) | Restore secure Point and Print values and approved print server lists. |
+| [`Remove-EnrollingUserAdmin`](./Remove-EnrollingUserAdmin) | Remove unapproved direct Entra user administrators while preserving groups and local accounts. |
 
 ### Intune agent and device health
 
@@ -161,6 +162,13 @@ Folder names are prefixed by what the package **does**, so related packages sort
 |---|---|
 | [`Set-OutlookComposeFont`](./Set-OutlookComposeFont) | Restore approved classic Outlook compose and reply font defaults for the signed-in user. |
 | [`Update-NewTeams`](./Update-NewTeams) | Detect outdated new Teams versions and optionally update with an approved Teams bootstrapper. |
+
+### Network and VPN
+
+| Folder | Purpose |
+|---|---|
+| [`Remove-StaleClientCertificates`](./Remove-StaleClientCertificates) | Remove approved obsolete device client certificates while retaining the replacement and private keys. |
+| [`Remove-RetiredServerDrives`](./Remove-RetiredServerDrives) | Remove approved drive mappings to retired file servers. |
 
 ### Inventory & reporting (detection-only)
 
