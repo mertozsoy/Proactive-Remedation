@@ -135,6 +135,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-HybridDeviceName`](./Set-HybridDeviceName) | Rename approved hybrid joined workstations to assigned names without an automatic restart. |
 | [`Remove-StuckImeIncoming`](./Remove-StuckImeIncoming) | Remove old unchanged zero-byte IME Incoming download files. |
 | [`Enable-StoreServices`](./Enable-StoreServices) | Restore disabled Microsoft Store deployment services to demand start. |
+| [`Repair-ConfigMgrClientHealth`](./Repair-ConfigMgrClientHealth) | Repairs a stopped or unresponsive Configuration Manager client on co-managed devices and verifies the assigned site. |
 
 ### OneDrive
 
@@ -179,6 +180,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-WamRegistration`](./Repair-WamRegistration) | Repair missing or unhealthy per-user AAD BrokerPlugin and CloudExperienceHost registrations. |
 | [`Set-BatteryProcessorMinimum`](./Set-BatteryProcessorMinimum) | Raise the active power plan's minimum processor state on battery without changing AC settings. |
 | [`Set-PowerMode`](./Set-PowerMode) | Reset the AC and DC power mode to Balanced when 24H2 energy recommendations select Best power efficiency. |
+| [`Repair-SearchIndex`](./Repair-SearchIndex) | Repairs the Windows Search service and rebuilds the index database when Start menu search returns nothing. |
 
 ### Disk cleanup
 
@@ -217,6 +219,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-DnsSuffixSearchList`](./Set-DnsSuffixSearchList) | Adds the DNS suffix search list on Microsoft Entra joined devices so short names resolve. |
 | [`Remove-TemporaryWifiProfile`](./Remove-TemporaryWifiProfile) | Removes temporary onboarding Wi-Fi profiles left on the device after provisioning. |
 | [`Disable-DockNicPowerSaving`](./Disable-DockNicPowerSaving) | Turn off NIC power saving and Energy Efficient Ethernet on dock and USB-C Ethernet adapters. |
+| [`Disable-DockPowerSaving`](./Disable-DockPowerSaving) | Turn off PCI Express link state power management and USB selective suspend in the active power scheme so dock Ethernet and USB devices survive sleep. |
 
 ### Inventory & reporting (detection-only)
 
