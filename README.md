@@ -202,6 +202,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-ExtraOfficeProducts`](./Remove-ExtraOfficeProducts) | Remove explicitly selected preinstalled Office Click-to-Run products while preserving Microsoft 365 Apps. |
 | [`Repair-WebView2Runtime`](./Repair-WebView2Runtime) | Install missing machine-wide WebView2 Runtime and retry installation when runtime file checks fail. |
 | [`Remove-OfficeUpdateLeftovers`](./Remove-OfficeUpdateLeftovers) | Clear approved retired Office update management overrides. |
+| [`Repair-SharedComputerActivation`](./Repair-SharedComputerActivation) | Reset stale or corrupt shared computer activation licensing tokens for the signed-in user. |
 
 ### Network and VPN
 
