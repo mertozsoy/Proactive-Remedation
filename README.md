@@ -136,6 +136,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-StuckImeIncoming`](./Remove-StuckImeIncoming) | Remove old unchanged zero-byte IME Incoming download files. |
 | [`Enable-StoreServices`](./Enable-StoreServices) | Restore disabled Microsoft Store deployment services to demand start. |
 | [`Repair-ConfigMgrClientHealth`](./Repair-ConfigMgrClientHealth) | Repairs a stopped or unresponsive Configuration Manager client on co-managed devices and verifies the assigned site. |
+| [`Set-EspUserStatusPage`](./Set-EspUserStatusPage) | Marks the user Enrollment Status Page as skipped on provisioned devices so it does not reappear at every sign-in. |
 
 ### OneDrive
 
@@ -234,6 +235,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Report-HardwareInventory`](./Report-HardwareInventory) | Collects BIOS, TPM, battery and other hardware details as one JSON line |
 | [`Report-BrowserExtensions`](./Report-BrowserExtensions) | Lists Edge and Chrome extensions that are not on the approved list |
 | [`Report-MdmDeviceCertificates`](./Report-MdmDeviceCertificates) | Reports duplicate and expired Intune MDM device certificates |
+| [`Remove-OrphanUninstallKeys`](./Remove-OrphanUninstallKeys) | Remove orphaned uninstall registry keys left by deleted applications after a registry backup. |
 
 ### Utilities (not a Detect/Remediate pair)
 
