@@ -97,6 +97,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-BrowserExtension`](./Remove-BrowserExtension) | Removes one known bad browser extension from every profile |
 | [`Remove-StaleAvRegistration`](./Remove-StaleAvRegistration) | Removes stale third-party antivirus registrations from Windows Security Center so Defender can leave passive mode. |
 | [`Remove-PerUserChromeZoom`](./Remove-PerUserChromeZoom) | Finds Chrome and Zoom installed under AppData in every user profile and removes them with the uninstall command the app registered for that user. |
+| [`Uninstall-OemTrialware`](./Uninstall-OemTrialware) | Detect selected OEM trialware and uninstall matching MSI products without restarting Windows. |
 
 ### Intune agent and device health
 
