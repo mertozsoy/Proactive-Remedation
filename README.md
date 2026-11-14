@@ -113,6 +113,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Enable-UAC`](./Enable-UAC) | Turns User Account Control back on when EnableLUA was disabled locally. |
 | [`Repair-PrintSpooler`](./Repair-PrintSpooler) | Start the Print Spooler service and clear print jobs stuck in error state. |
 | [`Repair-PrimaryRefreshToken`](./Repair-PrimaryRefreshToken) | Refresh a missing or stale Primary Refresh Token for the signed-in user without a sign-out. |
+| [`Disable-RdpAccess`](./Disable-RdpAccess) | Disable Remote Desktop and the port 3389 firewall rules on clients that are not approved for RDP. |
 
 ### Intune agent and device health
 
