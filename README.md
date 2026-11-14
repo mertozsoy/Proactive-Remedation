@@ -101,6 +101,14 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-FirewallState`](./Remediate-FirewallState) | Enable disabled local Windows Firewall profiles and verify the effective state. |
 | [`Set-PointAndPrintSecurity`](./Set-PointAndPrintSecurity) | Restore secure Point and Print values and approved print server lists. |
 | [`Remove-EnrollingUserAdmin`](./Remove-EnrollingUserAdmin) | Remove unapproved direct Entra user administrators while preserving groups and local accounts. |
+| [`Enable-ApplicationIdentity`](./Enable-ApplicationIdentity) | Start a stopped Application Identity service and verify its running state. |
+| [`Set-BitLockerBiosSuspendCount`](./Set-BitLockerBiosSuspendCount) | Restore the approved BitLocker suspend reboot count during a bounded BIOS maintenance window. |
+| [`Set-BrowserExtensionUnion`](./Set-BrowserExtensionUnion) | Merge approved group extension lists and add missing Edge and Chrome force-install policy entries. |
+| [`Enable-WakeSignIn`](./Enable-WakeSignIn) | Require sign-in after sleep for unmanaged AC and battery settings on the active power plan. |
+| [`Set-EventLogMaxSize`](./Set-EventLogMaxSize) | Increase undersized Security, AppLocker and PowerShell event log limits without clearing events. |
+| [`Disable-BuiltinAccounts`](./Disable-BuiltinAccounts) | Disable enabled Guest and explicitly selected unused built-in accounts by SID. |
+| [`Remove-QuickAssist`](./Remove-QuickAssist) | Remove Quick Assist registrations, provisioning and the legacy capability from prohibited devices. |
+| [`Update-DefenderPlatform`](./Update-DefenderPlatform) | Update an outdated Defender Antivirus platform through the configured Windows Update source. |
 
 ### Intune agent and device health
 
@@ -120,6 +128,9 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Update-StoreApps`](./Update-StoreApps) | Request a device-context Microsoft Store app update scan without changing policies. |
 | [`Remove-ConfigMgrClient`](./Remove-ConfigMgrClient) | Remove an approved ConfigMgr client with its supported uninstaller and report residual paths. |
 | [`Remove-TattooedPolicyValues`](./Remove-TattooedPolicyValues) | Remove explicitly approved retired machine policy values after registry backup. |
+| [`Set-HybridDeviceName`](./Set-HybridDeviceName) | Rename approved hybrid joined workstations to assigned names without an automatic restart. |
+| [`Remove-StuckImeIncoming`](./Remove-StuckImeIncoming) | Remove old unchanged zero-byte IME Incoming download files. |
+| [`Enable-StoreServices`](./Enable-StoreServices) | Restore disabled Microsoft Store deployment services to demand start. |
 
 ### OneDrive
 
@@ -137,6 +148,10 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-WUInternetLocationBlock`](./Remove-WUInternetLocationBlock) | Removes the WSUS value that blocks Store and Company Portal installs |
 | [`Remediate-DeliveryOptimizationCache`](./Remediate-DeliveryOptimizationCache) | Cleans an oversized Delivery Optimization cache |
 | [`Set-UpdateHealthTools`](./Set-UpdateHealthTools) | Brings Microsoft Update Health Tools to the expected state: installed before 24H2 and removed on 24H2 and later. |
+| [`Update-DellCommandUpdate`](./Update-DellCommandUpdate) | Apply Dell driver and firmware updates with optional BIOS updates and scan verification. |
+| [`Repair-ComponentStore`](./Repair-ComponentStore) | Detect component store corruption and repair repairable Windows images with DISM. |
+| [`Repair-WindowsUpdateServiceStart`](./Repair-WindowsUpdateServiceStart) | Restore disabled Windows Update service startup modes without resetting update components. |
+| [`Remove-WUDriverExclusion`](./Remove-WUDriverExclusion) | Remove a retired Windows Update driver exclusion after policy review and backup. |
 
 ### User experience
 
@@ -149,12 +164,26 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-InboxApps`](./Repair-InboxApps) | Restores missing Notepad, Snipping Tool, Calculator and Store (user context) |
 | [`Repair-NetworkDrives`](./Repair-NetworkDrives) | Maps missing network drives again in the user session |
 | [`Set-AcPowerTimeouts`](./Set-AcPowerTimeouts) | Sets sleep and display timeouts on docked and meeting room devices |
+| [`Remove-StalePrinterQueues`](./Remove-StalePrinterQueues) | Remove explicitly retired printer queues from the signed-in user's printer inventory. |
+| [`Remediate-RequiredPrinters`](./Remediate-RequiredPrinters) | Adds missing approved shared printer connections for the signed-in user. |
+| [`Set-UserAppDefaults`](./Set-UserAppDefaults) | Check protocol defaults and verify user-assisted changes through Windows Settings. |
+| [`Remove-UnwantedTaskbarPins`](./Remove-UnwantedTaskbarPins) | Remove Microsoft Store and Copilot taskbar pins in the signed-in user's session. |
+| [`Repair-StartMenuRegistration`](./Repair-StartMenuRegistration) | Repair per-user Start menu and ShellExperienceHost registrations from existing system manifests. |
+| [`Repair-FirstLogonExplorer`](./Repair-FirstLogonExplorer) | Restart the current user's Explorer shell once for an eligible new profile. |
+| [`Remove-DefaultUserZero`](./Remove-DefaultUserZero) | Remove the leftover defaultuser0 account and its verified unloaded profile after provisioning. |
+| [`Repair-ApprovedPrinterDrivers`](./Repair-ApprovedPrinterDrivers) | Preinstall approved printer drivers as SYSTEM without weakening Point and Print security. |
+| [`Repair-WamRegistration`](./Repair-WamRegistration) | Repair missing or unhealthy per-user AAD BrokerPlugin and CloudExperienceHost registrations. |
+| [`Set-BatteryProcessorMinimum`](./Set-BatteryProcessorMinimum) | Raise the active power plan's minimum processor state on battery without changing AC settings. |
 
 ### Disk cleanup
 
 | Folder | Purpose |
 |---|---|
 | [`Remove-DellSupportAssistSnapshots`](./Remove-DellSupportAssistSnapshots) | Removes Dell SupportAssist recovery snapshots that fill the disk |
+| [`Remediate-FeatureUpdateDiskSpace`](./Remediate-FeatureUpdateDiskSpace) | Free system drive space before a feature update and verify the configured free-space target. |
+| [`Remove-OldIMECache`](./Remove-OldIMECache) | Remove old IMECache application content after retention and installer activity checks. |
+| [`Remove-AgedRecycleBinItems`](./Remove-AgedRecycleBinItems) | Find and optionally remove Recycle Bin items deleted more than 30 days ago. |
+| [`Remove-BrowserCache`](./Remove-BrowserCache) | Remove oversized Edge and Chrome disk cache files from unloaded local profiles. |
 
 ### Office and Teams
 
@@ -162,6 +191,12 @@ Folder names are prefixed by what the package **does**, so related packages sort
 |---|---|
 | [`Set-OutlookComposeFont`](./Set-OutlookComposeFont) | Restore approved classic Outlook compose and reply font defaults for the signed-in user. |
 | [`Update-NewTeams`](./Update-NewTeams) | Detect outdated new Teams versions and optionally update with an approved Teams bootstrapper. |
+| [`Repair-OfficeC2RUpdates`](./Repair-OfficeC2RUpdates) | Repair a configured local Microsoft 365 Apps update source and refresh update detection. |
+| [`Disable-NewOutlookMigration`](./Disable-NewOutlookMigration) | Hide the new Outlook toggle and disable automatic migration for classic Outlook users. |
+| [`Remove-NewOutlook`](./Remove-NewOutlook) | Remove unwanted new Outlook installations and provisioning after approval. |
+| [`Remove-ExtraOfficeProducts`](./Remove-ExtraOfficeProducts) | Remove explicitly selected preinstalled Office Click-to-Run products while preserving Microsoft 365 Apps. |
+| [`Repair-WebView2Runtime`](./Repair-WebView2Runtime) | Install missing machine-wide WebView2 Runtime and retry installation when runtime file checks fail. |
+| [`Remove-OfficeUpdateLeftovers`](./Remove-OfficeUpdateLeftovers) | Clear approved retired Office update management overrides. |
 
 ### Network and VPN
 
@@ -169,6 +204,10 @@ Folder names are prefixed by what the package **does**, so related packages sort
 |---|---|
 | [`Remove-StaleClientCertificates`](./Remove-StaleClientCertificates) | Remove approved obsolete device client certificates while retaining the replacement and private keys. |
 | [`Remove-RetiredServerDrives`](./Remove-RetiredServerDrives) | Remove approved drive mappings to retired file servers. |
+| [`Repair-CiscoVpnProfile`](./Repair-CiscoVpnProfile) | Restore a missing Cisco Secure Client VPN profile XML without overwriting existing profiles. |
+| [`Repair-ScepWifiConnection`](./Repair-ScepWifiConnection) | Retry a disconnected machine EAP-TLS Wi-Fi connection after its certificate becomes available. |
+| [`Repair-FortiClientVpnTunnel`](./Repair-FortiClientVpnTunnel) | Restore missing basic SSL VPN tunnel settings on standalone FortiClient VPN 7.x devices. |
+| [`Repair-GlobalProtectSettings`](./Repair-GlobalProtectSettings) | Repair GlobalProtect portal and optional pre-logon bootstrap settings. |
 
 ### Inventory & reporting (detection-only)
 
