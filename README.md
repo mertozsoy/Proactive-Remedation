@@ -114,6 +114,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-PrintSpooler`](./Repair-PrintSpooler) | Start the Print Spooler service and clear print jobs stuck in error state. |
 | [`Repair-PrimaryRefreshToken`](./Repair-PrimaryRefreshToken) | Refresh a missing or stale Primary Refresh Token for the signed-in user without a sign-out. |
 | [`Disable-RdpAccess`](./Disable-RdpAccess) | Disable Remote Desktop and the port 3389 firewall rules on clients that are not approved for RDP. |
+| [`Remove-DefenderLocalExclusions`](./Remove-DefenderLocalExclusions) | Removes Microsoft Defender Antivirus exclusions that were added locally and are not set by policy. |
 
 ### Intune agent and device health
 
@@ -195,6 +196,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-AgedRecycleBinItems`](./Remove-AgedRecycleBinItems) | Find and optionally remove Recycle Bin items deleted more than 30 days ago. |
 | [`Remove-BrowserCache`](./Remove-BrowserCache) | Remove oversized Edge and Chrome disk cache files from unloaded local profiles. |
 | [`Remove-OrphanedUserFolders`](./Remove-OrphanedUserFolders) | Removes folders under the profiles root that have no ProfileList entry and are not loaded. |
+| [`Remove-WindowsUpgradeLeftovers`](./Remove-WindowsUpgradeLeftovers) | Remove Windows.old and setup leftovers after the rollback window and clean the component store with DISM. |
 
 ### Office and Teams
 
