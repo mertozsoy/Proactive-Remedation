@@ -113,6 +113,8 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-LegacyCompanyPortal`](./Remove-LegacyCompanyPortal) | Removes the per-user Company Portal that blocks the system install |
 | [`Repair-WebView2Arm64`](./Repair-WebView2Arm64) | Detects an x64 WebView2 Runtime on ARM64 devices and reinstalls the ARM64 runtime. |
 | [`Reinstall-CompanyPortal`](./Reinstall-CompanyPortal) | Detects a missing or broken Company Portal app and reinstalls it from a staged bundle or resets the registration so the Intune Store app deploys it again. |
+| [`Update-StoreApps`](./Update-StoreApps) | Request a device-context Microsoft Store app update scan without changing policies. |
+| [`Remove-ConfigMgrClient`](./Remove-ConfigMgrClient) | Remove an approved ConfigMgr client with its supported uninstaller and report residual paths. |
 
 ### OneDrive
 
