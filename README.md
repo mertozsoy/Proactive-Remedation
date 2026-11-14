@@ -119,6 +119,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-DellBiosSettings`](./Set-DellBiosSettings) | Keep a standard Dell BIOS baseline by reading and writing WMI attributes. |
 | [`Remove-TattooedPowerSettings`](./Remove-TattooedPowerSettings) | Removes power policy values left behind after a power profile is unassigned, so users can change lid close and sleep settings again. |
 | [`Remove-NonDefaultSmbShares`](./Remove-NonDefaultSmbShares) | Removes SMB shares on workstations that are not built-in administrative shares and not on the allow list. |
+| [`Remove-UnapprovedLocalAccounts`](./Remove-UnapprovedLocalAccounts) | Disables or deletes local user accounts that are missing from the approved list. |
 
 ### Intune agent and device health
 
@@ -192,6 +193,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-BatteryProcessorMinimum`](./Set-BatteryProcessorMinimum) | Raise the active power plan's minimum processor state on battery without changing AC settings. |
 | [`Set-PowerMode`](./Set-PowerMode) | Reset the AC and DC power mode to Balanced when 24H2 energy recommendations select Best power efficiency. |
 | [`Repair-SearchIndex`](./Repair-SearchIndex) | Repairs the Windows Search service and rebuilds the index database when Start menu search returns nothing. |
+| [`Set-TeamsCustomBackgrounds`](./Set-TeamsCustomBackgrounds) | Copies corporate Teams background images into the signed-in user's new Teams Uploads folder and restores missing ones. |
 
 ### Disk cleanup
 
@@ -250,6 +252,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Report-BrowserExtensions`](./Report-BrowserExtensions) | Lists Edge and Chrome extensions that are not on the approved list |
 | [`Report-MdmDeviceCertificates`](./Report-MdmDeviceCertificates) | Reports duplicate and expired Intune MDM device certificates |
 | [`Remove-OrphanUninstallKeys`](./Remove-OrphanUninstallKeys) | Remove orphaned uninstall registry keys left by deleted applications after a registry backup. |
+| [`Report-NetworkPstFiles`](./Report-NetworkPstFiles) | Scans network share roots and mapped drives for Outlook PST files and reports their count and size. |
 
 ### Utilities (not a Detect/Remediate pair)
 
