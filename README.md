@@ -209,6 +209,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-WebView2Runtime`](./Repair-WebView2Runtime) | Install missing machine-wide WebView2 Runtime and retry installation when runtime file checks fail. |
 | [`Remove-OfficeUpdateLeftovers`](./Remove-OfficeUpdateLeftovers) | Clear approved retired Office update management overrides. |
 | [`Repair-SharedComputerActivation`](./Repair-SharedComputerActivation) | Reset stale or corrupt shared computer activation licensing tokens for the signed-in user. |
+| [`Update-M365AppsMinimumBuild`](./Update-M365AppsMinimumBuild) | Detect Microsoft 365 Apps builds below an approved minimum and optionally trigger a Click-to-Run update. |
 
 ### Network and VPN
 
