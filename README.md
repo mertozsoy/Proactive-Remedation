@@ -152,6 +152,12 @@ Folder names are prefixed by what the package **does**, so related packages sort
 |---|---|
 | [`Remove-DellSupportAssistSnapshots`](./Remove-DellSupportAssistSnapshots) | Removes Dell SupportAssist recovery snapshots that fill the disk |
 
+### Office and Teams
+
+| Folder | Purpose |
+|---|---|
+| [`Set-OutlookComposeFont`](./Set-OutlookComposeFont) | Restore approved classic Outlook compose and reply font defaults for the signed-in user. |
+
 ### Inventory & reporting (detection-only)
 
 | Folder | Purpose |
