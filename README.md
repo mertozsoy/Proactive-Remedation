@@ -116,6 +116,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Reinstall-CompanyPortal`](./Reinstall-CompanyPortal) | Detects a missing or broken Company Portal app and reinstalls it from a staged bundle or resets the registration so the Intune Store app deploys it again. |
 | [`Update-StoreApps`](./Update-StoreApps) | Request a device-context Microsoft Store app update scan without changing policies. |
 | [`Remove-ConfigMgrClient`](./Remove-ConfigMgrClient) | Remove an approved ConfigMgr client with its supported uninstaller and report residual paths. |
+| [`Remove-TattooedPolicyValues`](./Remove-TattooedPolicyValues) | Remove explicitly approved retired machine policy values after registry backup. |
 
 ### OneDrive
 
@@ -157,6 +158,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | Folder | Purpose |
 |---|---|
 | [`Set-OutlookComposeFont`](./Set-OutlookComposeFont) | Restore approved classic Outlook compose and reply font defaults for the signed-in user. |
+| [`Update-NewTeams`](./Update-NewTeams) | Detect outdated new Teams versions and optionally update with an approved Teams bootstrapper. |
 
 ### Inventory & reporting (detection-only)
 
