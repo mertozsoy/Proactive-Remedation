@@ -214,6 +214,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-GlobalProtectSettings`](./Repair-GlobalProtectSettings) | Repair GlobalProtect portal and optional pre-logon bootstrap settings. |
 | [`Set-DnsSuffixSearchList`](./Set-DnsSuffixSearchList) | Adds the DNS suffix search list on Microsoft Entra joined devices so short names resolve. |
 | [`Remove-TemporaryWifiProfile`](./Remove-TemporaryWifiProfile) | Removes temporary onboarding Wi-Fi profiles left on the device after provisioning. |
+| [`Disable-DockNicPowerSaving`](./Disable-DockNicPowerSaving) | Turn off NIC power saving and Energy Efficient Ethernet on dock and USB-C Ethernet adapters. |
 
 ### Inventory & reporting (detection-only)
 
