@@ -137,6 +137,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Enable-StoreServices`](./Enable-StoreServices) | Restore disabled Microsoft Store deployment services to demand start. |
 | [`Repair-ConfigMgrClientHealth`](./Repair-ConfigMgrClientHealth) | Repairs a stopped or unresponsive Configuration Manager client on co-managed devices and verifies the assigned site. |
 | [`Set-EspUserStatusPage`](./Set-EspUserStatusPage) | Marks the user Enrollment Status Page as skipped on provisioned devices so it does not reappear at every sign-in. |
+| [`Remediate-HealthScriptsSchedule`](./Remediate-HealthScriptsSchedule) | Reset stale IME HealthScripts execution state so remediations run on schedule again. |
 
 ### OneDrive
 
