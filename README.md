@@ -117,6 +117,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-DefenderLocalExclusions`](./Remove-DefenderLocalExclusions) | Removes Microsoft Defender Antivirus exclusions that were added locally and are not set by policy. |
 | [`Set-CachedLogonCount`](./Set-CachedLogonCount) | Lower CachedLogonsCount so former or shared users cannot sign in offline with cached credentials. |
 | [`Set-DellBiosSettings`](./Set-DellBiosSettings) | Keep a standard Dell BIOS baseline by reading and writing WMI attributes. |
+| [`Remove-TattooedPowerSettings`](./Remove-TattooedPowerSettings) | Removes power policy values left behind after a power profile is unassigned, so users can change lid close and sleep settings again. |
 
 ### Intune agent and device health
 
@@ -143,6 +144,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-EspUserStatusPage`](./Set-EspUserStatusPage) | Marks the user Enrollment Status Page as skipped on provisioned devices so it does not reappear at every sign-in. |
 | [`Remediate-HealthScriptsSchedule`](./Remediate-HealthScriptsSchedule) | Reset stale IME HealthScripts execution state so remediations run on schedule again. |
 | [`Repair-MDMEnrollment`](./Repair-MDMEnrollment) | Start the Group Policy auto-enrollment task on a hybrid Entra joined device that has no active Intune enrollment. |
+| [`Repair-MDMCertReference`](./Repair-MDMCertReference) | Restore the MDM SslClientCertReference value from the enrollment record or the newest Intune MDM certificate. |
 
 ### OneDrive
 
