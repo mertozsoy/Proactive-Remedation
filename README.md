@@ -147,6 +147,8 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-HealthScriptsSchedule`](./Remediate-HealthScriptsSchedule) | Reset stale IME HealthScripts execution state so remediations run on schedule again. |
 | [`Repair-MDMEnrollment`](./Repair-MDMEnrollment) | Start the Group Policy auto-enrollment task on a hybrid Entra joined device that has no active Intune enrollment. |
 | [`Repair-MDMCertReference`](./Repair-MDMCertReference) | Restore the MDM SslClientCertReference value from the enrollment record or the newest Intune MDM certificate. |
+| [`Enable-AppInstaller`](./Enable-AppInstaller) | Remove the disabled App Installer policy value so Intune Store app installs work again. |
+| [`Report-IMEVersion`](./Report-IMEVersion) | Reports the Intune Management Extension version and flags devices below the supported 1.58.103.0 minimum. |
 
 ### OneDrive
 
