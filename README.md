@@ -110,6 +110,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-RequiredApps`](./Repair-RequiredApps) | Brings back a required app that the user uninstalled |
 | [`Enable-MDMSyncTasks`](./Enable-MDMSyncTasks) | Turns disabled Task Scheduler and MDM sync tasks back on |
 | [`Remove-LegacyCompanyPortal`](./Remove-LegacyCompanyPortal) | Removes the per-user Company Portal that blocks the system install |
+| [`Repair-WebView2Arm64`](./Repair-WebView2Arm64) | Detects an x64 WebView2 Runtime on ARM64 devices and reinstalls the ARM64 runtime. |
 
 ### OneDrive
 
@@ -126,6 +127,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-TargetReleaseVersionPin`](./Remove-TargetReleaseVersionPin) | Removes a leftover TargetReleaseVersion pin that blocks feature updates |
 | [`Remove-WUInternetLocationBlock`](./Remove-WUInternetLocationBlock) | Removes the WSUS value that blocks Store and Company Portal installs |
 | [`Remediate-DeliveryOptimizationCache`](./Remediate-DeliveryOptimizationCache) | Cleans an oversized Delivery Optimization cache |
+| [`Set-UpdateHealthTools`](./Set-UpdateHealthTools) | Brings Microsoft Update Health Tools to the expected state: installed before 24H2 and removed on 24H2 and later. |
 
 ### User experience
 
