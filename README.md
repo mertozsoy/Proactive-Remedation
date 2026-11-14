@@ -120,6 +120,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-TattooedPowerSettings`](./Remove-TattooedPowerSettings) | Removes power policy values left behind after a power profile is unassigned, so users can change lid close and sleep settings again. |
 | [`Remove-NonDefaultSmbShares`](./Remove-NonDefaultSmbShares) | Removes SMB shares on workstations that are not built-in administrative shares and not on the allow list. |
 | [`Remove-UnapprovedLocalAccounts`](./Remove-UnapprovedLocalAccounts) | Disables or deletes local user accounts that are missing from the approved list. |
+| [`Repair-DomainAdminsLocalGroup`](./Repair-DomainAdminsLocalGroup) | Re-add the configured AD group to the local Administrators group when it disappears on a hybrid joined device. |
 
 ### Intune agent and device health
 
@@ -210,6 +211,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-OrphanedUserFolders`](./Remove-OrphanedUserFolders) | Removes folders under the profiles root that have no ProfileList entry and are not loaded. |
 | [`Remove-WindowsUpgradeLeftovers`](./Remove-WindowsUpgradeLeftovers) | Remove Windows.old and setup leftovers after the rollback window and clean the component store with DISM. |
 | [`Remediate-OneDriveDiskSpace`](./Remediate-OneDriveDiskSpace) | Frees local disk space by converting locally available OneDrive files to online-only when free space is low. |
+| [`Remove-WinGetComLogs`](./Remove-WinGetComLogs) | Removes oversized WinGet COM log files from C:\Windows\Temp\WinGet before they fill the system disk. |
 
 ### Office and Teams
 
@@ -227,6 +229,8 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Update-M365AppsMinimumBuild`](./Update-M365AppsMinimumBuild) | Detect Microsoft 365 Apps builds below an approved minimum and optionally trigger a Click-to-Run update. |
 | [`Set-TeamsForegroundStart`](./Set-TeamsForegroundStart) | Force the new Teams client to start in the foreground for the signed-in user and verify the per-user setting. |
 | [`Remediate-OutlookBrowserLinks`](./Remediate-OutlookBrowserLinks) | Points classic Outlook back to the Windows default browser by fixing the per-user link preference that Microsoft 365 Business plans cannot manage with policy. |
+| [`Enable-TeamsOutlookNotifications`](./Enable-TeamsOutlookNotifications) | Turns per-user Teams and Outlook desktop notifications back on when Windows notification settings disabled them. |
+| [`Set-TeamsAutoStart`](./Set-TeamsAutoStart) | Enable and verify the new Teams startup task for the signed-in user so the client starts at logon. |
 
 ### Network and VPN
 
