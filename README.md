@@ -208,6 +208,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-BrowserCache`](./Remove-BrowserCache) | Remove oversized Edge and Chrome disk cache files from unloaded local profiles. |
 | [`Remove-OrphanedUserFolders`](./Remove-OrphanedUserFolders) | Removes folders under the profiles root that have no ProfileList entry and are not loaded. |
 | [`Remove-WindowsUpgradeLeftovers`](./Remove-WindowsUpgradeLeftovers) | Remove Windows.old and setup leftovers after the rollback window and clean the component store with DISM. |
+| [`Remediate-OneDriveDiskSpace`](./Remediate-OneDriveDiskSpace) | Frees local disk space by converting locally available OneDrive files to online-only when free space is low. |
 
 ### Office and Teams
 
