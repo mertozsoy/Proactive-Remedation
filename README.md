@@ -115,6 +115,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-PrimaryRefreshToken`](./Repair-PrimaryRefreshToken) | Refresh a missing or stale Primary Refresh Token for the signed-in user without a sign-out. |
 | [`Disable-RdpAccess`](./Disable-RdpAccess) | Disable Remote Desktop and the port 3389 firewall rules on clients that are not approved for RDP. |
 | [`Remove-DefenderLocalExclusions`](./Remove-DefenderLocalExclusions) | Removes Microsoft Defender Antivirus exclusions that were added locally and are not set by policy. |
+| [`Set-CachedLogonCount`](./Set-CachedLogonCount) | Lower CachedLogonsCount so former or shared users cannot sign in offline with cached credentials. |
 
 ### Intune agent and device health
 
