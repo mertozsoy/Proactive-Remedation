@@ -118,6 +118,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-CachedLogonCount`](./Set-CachedLogonCount) | Lower CachedLogonsCount so former or shared users cannot sign in offline with cached credentials. |
 | [`Set-DellBiosSettings`](./Set-DellBiosSettings) | Keep a standard Dell BIOS baseline by reading and writing WMI attributes. |
 | [`Remove-TattooedPowerSettings`](./Remove-TattooedPowerSettings) | Removes power policy values left behind after a power profile is unassigned, so users can change lid close and sleep settings again. |
+| [`Remove-NonDefaultSmbShares`](./Remove-NonDefaultSmbShares) | Removes SMB shares on workstations that are not built-in administrative shares and not on the allow list. |
 
 ### Intune agent and device health
 
