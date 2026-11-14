@@ -193,6 +193,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-OldIMECache`](./Remove-OldIMECache) | Remove old IMECache application content after retention and installer activity checks. |
 | [`Remove-AgedRecycleBinItems`](./Remove-AgedRecycleBinItems) | Find and optionally remove Recycle Bin items deleted more than 30 days ago. |
 | [`Remove-BrowserCache`](./Remove-BrowserCache) | Remove oversized Edge and Chrome disk cache files from unloaded local profiles. |
+| [`Remove-OrphanedUserFolders`](./Remove-OrphanedUserFolders) | Removes folders under the profiles root that have no ProfileList entry and are not loaded. |
 
 ### Office and Teams
 
