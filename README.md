@@ -116,6 +116,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Disable-RdpAccess`](./Disable-RdpAccess) | Disable Remote Desktop and the port 3389 firewall rules on clients that are not approved for RDP. |
 | [`Remove-DefenderLocalExclusions`](./Remove-DefenderLocalExclusions) | Removes Microsoft Defender Antivirus exclusions that were added locally and are not set by policy. |
 | [`Set-CachedLogonCount`](./Set-CachedLogonCount) | Lower CachedLogonsCount so former or shared users cannot sign in offline with cached credentials. |
+| [`Set-DellBiosSettings`](./Set-DellBiosSettings) | Keep a standard Dell BIOS baseline by reading and writing WMI attributes. |
 
 ### Intune agent and device health
 
@@ -141,6 +142,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-ConfigMgrClientHealth`](./Repair-ConfigMgrClientHealth) | Repairs a stopped or unresponsive Configuration Manager client on co-managed devices and verifies the assigned site. |
 | [`Set-EspUserStatusPage`](./Set-EspUserStatusPage) | Marks the user Enrollment Status Page as skipped on provisioned devices so it does not reappear at every sign-in. |
 | [`Remediate-HealthScriptsSchedule`](./Remediate-HealthScriptsSchedule) | Reset stale IME HealthScripts execution state so remediations run on schedule again. |
+| [`Repair-MDMEnrollment`](./Repair-MDMEnrollment) | Start the Group Policy auto-enrollment task on a hybrid Entra joined device that has no active Intune enrollment. |
 
 ### OneDrive
 
@@ -162,6 +164,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-ComponentStore`](./Repair-ComponentStore) | Detect component store corruption and repair repairable Windows images with DISM. |
 | [`Repair-WindowsUpdateServiceStart`](./Repair-WindowsUpdateServiceStart) | Restore disabled Windows Update service startup modes without resetting update components. |
 | [`Remove-WUDriverExclusion`](./Remove-WUDriverExclusion) | Remove a retired Windows Update driver exclusion after policy review and backup. |
+| [`Remediate-Windows10Esu`](./Remediate-Windows10Esu) | Install and activate the Windows 10 ESU MAK key and verify the license state. |
 
 ### User experience
 
