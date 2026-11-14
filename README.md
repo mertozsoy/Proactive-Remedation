@@ -109,6 +109,9 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Disable-BuiltinAccounts`](./Disable-BuiltinAccounts) | Disable enabled Guest and explicitly selected unused built-in accounts by SID. |
 | [`Remove-QuickAssist`](./Remove-QuickAssist) | Remove Quick Assist registrations, provisioning and the legacy capability from prohibited devices. |
 | [`Update-DefenderPlatform`](./Update-DefenderPlatform) | Update an outdated Defender Antivirus platform through the configured Windows Update source. |
+| [`Repair-HostsFile`](./Repair-HostsFile) | Restores the hosts file to an approved baseline and removes stale or malicious entries. |
+| [`Enable-UAC`](./Enable-UAC) | Turns User Account Control back on when EnableLUA was disabled locally. |
+| [`Repair-PrintSpooler`](./Repair-PrintSpooler) | Start the Print Spooler service and clear print jobs stuck in error state. |
 
 ### Intune agent and device health
 
@@ -208,6 +211,8 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-ScepWifiConnection`](./Repair-ScepWifiConnection) | Retry a disconnected machine EAP-TLS Wi-Fi connection after its certificate becomes available. |
 | [`Repair-FortiClientVpnTunnel`](./Repair-FortiClientVpnTunnel) | Restore missing basic SSL VPN tunnel settings on standalone FortiClient VPN 7.x devices. |
 | [`Repair-GlobalProtectSettings`](./Repair-GlobalProtectSettings) | Repair GlobalProtect portal and optional pre-logon bootstrap settings. |
+| [`Set-DnsSuffixSearchList`](./Set-DnsSuffixSearchList) | Adds the DNS suffix search list on Microsoft Entra joined devices so short names resolve. |
+| [`Remove-TemporaryWifiProfile`](./Remove-TemporaryWifiProfile) | Removes temporary onboarding Wi-Fi profiles left on the device after provisioning. |
 
 ### Inventory & reporting (detection-only)
 
