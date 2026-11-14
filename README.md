@@ -178,6 +178,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-ApprovedPrinterDrivers`](./Repair-ApprovedPrinterDrivers) | Preinstall approved printer drivers as SYSTEM without weakening Point and Print security. |
 | [`Repair-WamRegistration`](./Repair-WamRegistration) | Repair missing or unhealthy per-user AAD BrokerPlugin and CloudExperienceHost registrations. |
 | [`Set-BatteryProcessorMinimum`](./Set-BatteryProcessorMinimum) | Raise the active power plan's minimum processor state on battery without changing AC settings. |
+| [`Set-PowerMode`](./Set-PowerMode) | Reset the AC and DC power mode to Balanced when 24H2 energy recommendations select Best power efficiency. |
 
 ### Disk cleanup
 
