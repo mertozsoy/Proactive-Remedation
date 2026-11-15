@@ -126,6 +126,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-NtlmV2Level`](./Set-NtlmV2Level) | Raise LmCompatibilityLevel to 5 so clients send NTLMv2 only and refuse LM and NTLM. |
 | [`Remove-StaleFirewallRules`](./Remove-StaleFirewallRules) | Removes local firewall allow rules that point to missing programs or services or were created by users outside policy. |
 | [`Set-SystemRestoreStorage`](./Set-SystemRestoreStorage) | Cap oversized System Restore shadow copy storage on protected volumes and verify the new limit. |
+| [`Remediate-PageFileSettings`](./Remediate-PageFileSettings) | Restore system managed page file settings and verify automatic management is back on. |
 
 ### Intune agent and device health
 
