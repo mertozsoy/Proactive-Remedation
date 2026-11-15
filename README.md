@@ -270,6 +270,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Disable-DockNicPowerSaving`](./Disable-DockNicPowerSaving) | Turn off NIC power saving and Energy Efficient Ethernet on dock and USB-C Ethernet adapters. |
 | [`Disable-DockPowerSaving`](./Disable-DockPowerSaving) | Turn off PCI Express link state power management and USB selective suspend in the active power scheme so dock Ethernet and USB devices survive sleep. |
 | [`Remediate-VpnLeftDns`](./Remediate-VpnLeftDns) | Reset static DNS servers left on physical adapters by a VPN client and verify the DHCP DNS list. |
+| [`Remediate-AovpnAutoConnect`](./Remediate-AovpnAutoConnect) | Remove Always On VPN profile names from AutoTriggerDisabledProfilesList so auto-connect works again. |
 
 ### Inventory & reporting (detection-only)
 
