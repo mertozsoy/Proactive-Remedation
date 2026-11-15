@@ -123,6 +123,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-DomainAdminsLocalGroup`](./Repair-DomainAdminsLocalGroup) | Re-add the configured AD group to the local Administrators group when it disappears on a hybrid joined device. |
 | [`Set-DevicePrimaryUserAdmin`](./Set-DevicePrimaryUserAdmin) | Grant local admin only to the mapped user of each device when the profile exists. |
 | [`Remediate-SmartScreen`](./Remediate-SmartScreen) | Turn Microsoft Defender SmartScreen back on when the device or Edge setting is disabled. |
+| [`Set-NtlmV2Level`](./Set-NtlmV2Level) | Raise LmCompatibilityLevel to 5 so clients send NTLMv2 only and refuse LM and NTLM. |
 
 ### Intune agent and device health
 
