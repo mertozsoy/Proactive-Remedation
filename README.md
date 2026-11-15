@@ -150,6 +150,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-KnownBadFile`](./Remove-KnownBadFile) | Deletes a known-bad file or driver from assigned devices using a configured folder, name pattern and optional hash. |
 | [`Disable-WDigestCredentialCaching`](./Disable-WDigestCredentialCaching) | Disables WDigest plaintext credential caching by setting UseLogonCredential to 0 and verifies the value. |
 | [`Remediate-MdeSenseCapability`](./Remediate-MdeSenseCapability) | Install the missing SENSE Client feature on demand on 24H2 devices so Defender for Endpoint onboarding can complete. |
+| [`Remediate-TpmHealthAttestation`](./Remediate-TpmHealthAttestation) | Triggers TPM health attestation certificate retrieval when the cached certificate is missing or stale. |
 
 ### Intune agent and device health
 
