@@ -248,6 +248,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Disable-StartupSound`](./Disable-StartupSound) | Turns off the Windows startup sound on managed devices with the policy registry value. |
 | [`Repair-HttpsProtocolAssociation`](./Repair-HttpsProtocolAssociation) | Repair http and https protocol associations that point to a missing handler. |
 | [`Remediate-PublicDesktopAcl`](./Remediate-PublicDesktopAcl) | Grants the built-in Users group delete rights on the Public Desktop folder so users can remove icons that installers leave behind. |
+| [`Repair-BrokenInboxApps`](./Repair-BrokenInboxApps) | Re-registers inbox Store apps that are installed but do not open, then verifies the result. |
 
 ### Disk cleanup
 
