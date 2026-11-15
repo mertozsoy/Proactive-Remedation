@@ -127,6 +127,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-StaleFirewallRules`](./Remove-StaleFirewallRules) | Removes local firewall allow rules that point to missing programs or services or were created by users outside policy. |
 | [`Set-SystemRestoreStorage`](./Set-SystemRestoreStorage) | Cap oversized System Restore shadow copy storage on protected volumes and verify the new limit. |
 | [`Remediate-PageFileSettings`](./Remediate-PageFileSettings) | Restore system managed page file settings and verify automatic management is back on. |
+| [`Remediate-SecurityLogFull`](./Remediate-SecurityLogFull) | Restores circular logging on a full Security event log and clears a blocking CrashOnAuditFail state. |
 
 ### Intune agent and device health
 
@@ -212,6 +213,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-EdgeProfileSelection`](./Repair-EdgeProfileSelection) | Repair Edge profile selection and pinned shortcuts that open the wrong profile. |
 | [`Set-DefaultPrinter`](./Set-DefaultPrinter) | Pin the approved default printer for the signed-in user and turn off Windows default printer management. |
 | [`Repair-OfficeEdgeShortcuts`](./Repair-OfficeEdgeShortcuts) | Repair broken Office and Edge Start menu shortcuts across profiles and recreate missing ones. |
+| [`Remove-LegacyRemoteDesktopClient`](./Remove-LegacyRemoteDesktopClient) | Remove the retired Remote Desktop Store app and MSI client after the move to Windows App. |
 
 ### Disk cleanup
 
@@ -228,6 +230,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-WinGetComLogs`](./Remove-WinGetComLogs) | Removes oversized WinGet COM log files from C:\Windows\Temp\WinGet before they fill the system disk. |
 | [`Remove-OrphanedInstallerFiles`](./Remove-OrphanedInstallerFiles) | Removes MSI and MSP files in the Windows Installer cache that no registered product or patch references. |
 | [`Remove-SupersededDrivers`](./Remove-SupersededDrivers) | Removes older third-party driver packages from the driver store when a newer version of the same driver is present. |
+| [`Remove-SoftwareDistributionBackups`](./Remove-SoftwareDistributionBackups) | Removes stale SoftwareDistribution.old and catroot2.old folders left by earlier Windows Update repairs. |
 
 ### Office and Teams
 
