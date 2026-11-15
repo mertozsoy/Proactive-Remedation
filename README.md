@@ -267,6 +267,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-DirtyVolume`](./Remediate-DirtyVolume) | Schedules a boot time chkdsk for NTFS volumes that carry the dirty bit. |
 | [`Remove-CrashDumps`](./Remove-CrashDumps) | Deletes kernel crash dump files older than a set age to free disk space. |
 | [`Remove-WerCrashReports`](./Remove-WerCrashReports) | Clears old Windows Error Reporting queue items and per-user crash dump files before they fill the system disk. |
+| [`Remediate-OfficeFileCache`](./Remediate-OfficeFileCache) | Measures the Office document cache in the user profile and clears it when it grows past the threshold. |
 
 ### Office and Teams
 
