@@ -157,6 +157,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Report-IMEVersion`](./Report-IMEVersion) | Reports the Intune Management Extension version and flags devices below the supported 1.58.103.0 minimum. |
 | [`Report-MdmEnrollmentGuids`](./Report-MdmEnrollmentGuids) | Report leftover and duplicate MDM enrollment GUIDs on a device together with the ConfigMgr state and recent auto-enrollment failures. |
 | [`Remediate-OmadmClient`](./Remediate-OmadmClient) | Terminate omadmclient.exe processes that stayed running past the sync threshold. |
+| [`Remove-DeliveryOptimizationBypass`](./Remove-DeliveryOptimizationBypass) | Remove a leftover Delivery Optimization DownloadMode value of 99 or 100 so Win32 app downloads use the Delivery Optimization service again. |
 
 ### OneDrive
 
