@@ -290,6 +290,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Report-MdmDeviceCertificates`](./Report-MdmDeviceCertificates) | Reports duplicate and expired Intune MDM device certificates |
 | [`Remove-OrphanUninstallKeys`](./Remove-OrphanUninstallKeys) | Remove orphaned uninstall registry keys left by deleted applications after a registry backup. |
 | [`Report-NetworkPstFiles`](./Report-NetworkPstFiles) | Scans network share roots and mapped drives for Outlook PST files and reports their count and size. |
+| [`Report-UsbStorageMounted`](./Report-UsbStorageMounted) | Checks the USB storage block settings and reports USB disks that are still present or mounted. |
 
 ### Utilities (not a Detect/Remediate pair)
 
