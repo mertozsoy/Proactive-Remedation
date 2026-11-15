@@ -143,6 +143,10 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-LegacyLaps`](./Remove-LegacyLaps) | Remove approved legacy LAPS remnants after native Windows LAPS migration. |
 | [`Remediate-CameraMicAccess`](./Remediate-CameraMicAccess) | Turns camera and microphone app access back on when the user switched it off in Windows privacy settings. |
 | [`Repair-BluetoothSupportService`](./Repair-BluetoothSupportService) | Start the Bluetooth Support Service and restore its manual startup type when it is stopped or disabled. |
+| [`Disable-DeviceCoInstallers`](./Disable-DeviceCoInstallers) | Detect and optionally disable device co-installers. |
+| [`Remove-PlaintextAutoLogonPassword`](./Remove-PlaintextAutoLogonPassword) | Detect and remove the plaintext Winlogon AutoLogon password after approval. |
+| [`Disable-MdnsResponder`](./Disable-MdnsResponder) | Block inbound and outbound mDNS traffic with verified Windows Firewall rules. |
+| [`Enable-LsaProtection`](./Enable-LsaProtection) | Enable missing or disabled LSA protection configuration without adding a UEFI lock. |
 
 ### Intune agent and device health
 
@@ -285,6 +289,8 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-TeamsCache`](./Remediate-TeamsCache) | Clear the new Microsoft Teams cache of the signed-in user when it grows past a size threshold. |
 | [`Repair-OfficeQuickRepair`](./Repair-OfficeQuickRepair) | Run approved Office Quick Repair after repeated application crashes. |
 | [`Remediate-OutlookAutodiscover`](./Remediate-OutlookAutodiscover) | Sets the Outlook Autodiscover DWORDs so hybrid clients stop using the root domain and the Microsoft 365 endpoint. |
+| [`Repair-M365AppsActivation`](./Repair-M365AppsActivation) | Resets broken Microsoft 365 Apps license files so Office activates again. |
+| [`Remove-OrphanedOutlookOst`](./Remove-OrphanedOutlookOst) | Remove reviewed orphaned Outlook OST files using explicit filename and SHA256 approval. |
 
 ### Network and VPN
 
