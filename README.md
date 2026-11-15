@@ -136,6 +136,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Disable-RemoteRegistry`](./Disable-RemoteRegistry) | Disables the Remote Registry service on Windows clients, stops it when running and verifies the result. |
 | [`Repair-RegistryPol`](./Repair-RegistryPol) | Rebuilds a corrupt local Registry.pol so Group Policy processing starts again. |
 | [`Repair-AdSecureChannel`](./Repair-AdSecureChannel) | Test and repair the AD secure channel on hybrid Windows workstations. |
+| [`Repair-CameraDriverRollback`](./Repair-CameraDriverRollback) | Roll back a known bad camera driver and verify the approved version. |
 
 ### Intune agent and device health
 
