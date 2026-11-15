@@ -278,6 +278,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-OutlookOstSize`](./Remediate-OutlookOstSize) | Measures OST files of loaded Outlook profiles and disables shared folder caching when no policy value exists. |
 | [`Remediate-TeamsFirewallPrompt`](./Remediate-TeamsFirewallPrompt) | Adds machine wide inbound firewall allow rules for Microsoft Teams and removes leftover Query User block rules on shared PCs. |
 | [`Remediate-TeamsCache`](./Remediate-TeamsCache) | Clear the new Microsoft Teams cache of the signed-in user when it grows past a size threshold. |
+| [`Repair-OfficeQuickRepair`](./Repair-OfficeQuickRepair) | Run approved Office Quick Repair after repeated application crashes. |
 
 ### Network and VPN
 
