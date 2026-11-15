@@ -149,6 +149,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Enable-LsaProtection`](./Enable-LsaProtection) | Enable missing or disabled LSA protection configuration without adding a UEFI lock. |
 | [`Remove-KnownBadFile`](./Remove-KnownBadFile) | Deletes a known-bad file or driver from assigned devices using a configured folder, name pattern and optional hash. |
 | [`Disable-WDigestCredentialCaching`](./Disable-WDigestCredentialCaching) | Disables WDigest plaintext credential caching by setting UseLogonCredential to 0 and verifies the value. |
+| [`Remediate-MdeSenseCapability`](./Remediate-MdeSenseCapability) | Install the missing SENSE Client feature on demand on 24H2 devices so Defender for Endpoint onboarding can complete. |
 
 ### Intune agent and device health
 
