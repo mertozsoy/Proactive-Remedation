@@ -122,6 +122,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-UnapprovedLocalAccounts`](./Remove-UnapprovedLocalAccounts) | Disables or deletes local user accounts that are missing from the approved list. |
 | [`Repair-DomainAdminsLocalGroup`](./Repair-DomainAdminsLocalGroup) | Re-add the configured AD group to the local Administrators group when it disappears on a hybrid joined device. |
 | [`Set-DevicePrimaryUserAdmin`](./Set-DevicePrimaryUserAdmin) | Grant local admin only to the mapped user of each device when the profile exists. |
+| [`Remediate-SmartScreen`](./Remediate-SmartScreen) | Turn Microsoft Defender SmartScreen back on when the device or Edge setting is disabled. |
 
 ### Intune agent and device health
 
@@ -200,6 +201,8 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-PowerMode`](./Set-PowerMode) | Reset the AC and DC power mode to Balanced when 24H2 energy recommendations select Best power efficiency. |
 | [`Repair-SearchIndex`](./Repair-SearchIndex) | Repairs the Windows Search service and rebuilds the index database when Start menu search returns nothing. |
 | [`Set-TeamsCustomBackgrounds`](./Set-TeamsCustomBackgrounds) | Copies corporate Teams background images into the signed-in user's new Teams Uploads folder and restores missing ones. |
+| [`Set-DisplayScaling`](./Set-DisplayScaling) | Return the signed-in user to per-monitor display scaling when a forced single scale is leaving a docked external monitor unreadable. |
+| [`Repair-EdgeProfileSelection`](./Repair-EdgeProfileSelection) | Repair Edge profile selection and pinned shortcuts that open the wrong profile. |
 
 ### Disk cleanup
 
@@ -234,6 +237,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Enable-TeamsOutlookNotifications`](./Enable-TeamsOutlookNotifications) | Turns per-user Teams and Outlook desktop notifications back on when Windows notification settings disabled them. |
 | [`Set-TeamsAutoStart`](./Set-TeamsAutoStart) | Enable and verify the new Teams startup task for the signed-in user so the client starts at logon. |
 | [`Remediate-OutlookOstSize`](./Remediate-OutlookOstSize) | Measures OST files of loaded Outlook profiles and disables shared folder caching when no policy value exists. |
+| [`Remediate-TeamsFirewallPrompt`](./Remediate-TeamsFirewallPrompt) | Adds machine wide inbound firewall allow rules for Microsoft Teams and removes leftover Query User block rules on shared PCs. |
 
 ### Network and VPN
 
