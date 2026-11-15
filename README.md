@@ -232,6 +232,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-OrphanedInstallerFiles`](./Remove-OrphanedInstallerFiles) | Removes MSI and MSP files in the Windows Installer cache that no registered product or patch references. |
 | [`Remove-SupersededDrivers`](./Remove-SupersededDrivers) | Removes older third-party driver packages from the driver store when a newer version of the same driver is present. |
 | [`Remove-SoftwareDistributionBackups`](./Remove-SoftwareDistributionBackups) | Removes stale SoftwareDistribution.old and catroot2.old folders left by earlier Windows Update repairs. |
+| [`Remediate-DirtyVolume`](./Remediate-DirtyVolume) | Schedules a boot time chkdsk for NTFS volumes that carry the dirty bit. |
 
 ### Office and Teams
 
