@@ -151,6 +151,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Disable-WDigestCredentialCaching`](./Disable-WDigestCredentialCaching) | Disables WDigest plaintext credential caching by setting UseLogonCredential to 0 and verifies the value. |
 | [`Remediate-MdeSenseCapability`](./Remediate-MdeSenseCapability) | Install the missing SENSE Client feature on demand on 24H2 devices so Defender for Endpoint onboarding can complete. |
 | [`Remediate-TpmHealthAttestation`](./Remediate-TpmHealthAttestation) | Triggers TPM health attestation certificate retrieval when the cached certificate is missing or stale. |
+| [`Repair-Msiexec1618`](./Repair-Msiexec1618) | Clear a hung msiexec process and a stale Windows Installer InProgress key that blocks MSI installs with error 1618. |
 
 ### Intune agent and device health
 
