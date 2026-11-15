@@ -129,6 +129,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-PageFileSettings`](./Remediate-PageFileSettings) | Restore system managed page file settings and verify automatic management is back on. |
 | [`Remediate-SecurityLogFull`](./Remediate-SecurityLogFull) | Restores circular logging on a full Security event log and clears a blocking CrashOnAuditFail state. |
 | [`Disable-SMBv1`](./Disable-SMBv1) | Disables the SMBv1 client driver and the SMBv1 server on workstations and verifies both stay off. |
+| [`Remove-StaleCredentialEntries`](./Remove-StaleCredentialEntries) | Removes Credential Manager entries that still point to retired servers or shares. |
 
 ### Intune agent and device health
 
