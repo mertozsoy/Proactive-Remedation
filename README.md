@@ -139,6 +139,8 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-CameraDriverRollback`](./Repair-CameraDriverRollback) | Roll back a known bad camera driver and verify the approved version. |
 | [`Remove-ExpiredPersonalCertificates`](./Remove-ExpiredPersonalCertificates) | Back up and remove approved expired personal-store certificates while retaining private keys. |
 | [`Remove-BlocklistedRootCAs`](./Remove-BlocklistedRootCAs) | Back up and remove explicitly blocklisted unmanaged machine root certificates. |
+| [`Repair-TaskCache`](./Repair-TaskCache) | Remove approved orphaned TaskCache records after backup and verify task enumeration. |
+| [`Remove-LegacyLaps`](./Remove-LegacyLaps) | Remove approved legacy LAPS remnants after native Windows LAPS migration. |
 
 ### Intune agent and device health
 
@@ -199,6 +201,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Enable-MicrosoftUpdateService`](./Enable-MicrosoftUpdateService) | Register the Microsoft Update service so Office and driver updates are offered to the device. |
 | [`Enable-Wlidsvc`](./Enable-Wlidsvc) | Restore a disabled Microsoft Account Sign-in Assistant service so feature updates are offered again. |
 | [`Enable-RestartNotifications`](./Enable-RestartNotifications) | Turn on the pending restart notification toggle for Windows Update on existing devices. |
+| [`Remove-DuplicateProfileEntries`](./Remove-DuplicateProfileEntries) | Detect duplicate ProfileList entries and remove approved duplicates after backup and safety checks. |
 
 ### User experience
 
@@ -297,6 +300,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-StaleVpnConnections`](./Remove-StaleVpnConnections) | Removes duplicate and retired VPN entries from the user phone book and keeps one working connection per name. |
 | [`Remove-StaleProxySettings`](./Remove-StaleProxySettings) | Remove explicitly retired default WinHTTP and saved WinINET proxy settings after approval. |
 | [`Disable-Wpad`](./Disable-Wpad) | Disable WinHTTP WPAD auto-discovery without disabling its service. |
+| [`Repair-AovpnDeviceTunnel`](./Repair-AovpnDeviceTunnel) | Recreate a missing script-owned Always On VPN device tunnel from approved ProfileXML. |
 
 ### Inventory & reporting (detection-only)
 
