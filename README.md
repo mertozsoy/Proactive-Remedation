@@ -133,6 +133,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Disable-WinRMBasicAuth`](./Disable-WinRMBasicAuth) | Blocks WinRM Basic authentication and unencrypted traffic on the client and the service side and verifies the result. |
 | [`Enable-CertPaddingCheck`](./Enable-CertPaddingCheck) | Enables the WinVerifyTrust certificate padding check in both registry locations to close CVE-2013-3900 findings. |
 | [`Disable-WorkplaceJoin`](./Disable-WorkplaceJoin) | Blocks personal Workplace Join on corporate devices with the BlockAADWorkplaceJoin policy value and verifies it. |
+| [`Disable-RemoteRegistry`](./Disable-RemoteRegistry) | Disables the Remote Registry service on Windows clients, stops it when running and verifies the result. |
 
 ### Intune agent and device health
 
