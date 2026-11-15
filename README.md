@@ -121,6 +121,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-NonDefaultSmbShares`](./Remove-NonDefaultSmbShares) | Removes SMB shares on workstations that are not built-in administrative shares and not on the allow list. |
 | [`Remove-UnapprovedLocalAccounts`](./Remove-UnapprovedLocalAccounts) | Disables or deletes local user accounts that are missing from the approved list. |
 | [`Repair-DomainAdminsLocalGroup`](./Repair-DomainAdminsLocalGroup) | Re-add the configured AD group to the local Administrators group when it disappears on a hybrid joined device. |
+| [`Set-DevicePrimaryUserAdmin`](./Set-DevicePrimaryUserAdmin) | Grant local admin only to the mapped user of each device when the profile exists. |
 
 ### Intune agent and device health
 
