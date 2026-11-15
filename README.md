@@ -141,6 +141,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-BlocklistedRootCAs`](./Remove-BlocklistedRootCAs) | Back up and remove explicitly blocklisted unmanaged machine root certificates. |
 | [`Repair-TaskCache`](./Repair-TaskCache) | Remove approved orphaned TaskCache records after backup and verify task enumeration. |
 | [`Remove-LegacyLaps`](./Remove-LegacyLaps) | Remove approved legacy LAPS remnants after native Windows LAPS migration. |
+| [`Remediate-CameraMicAccess`](./Remediate-CameraMicAccess) | Turns camera and microphone app access back on when the user switched it off in Windows privacy settings. |
 
 ### Intune agent and device health
 
