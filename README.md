@@ -130,6 +130,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-SecurityLogFull`](./Remediate-SecurityLogFull) | Restores circular logging on a full Security event log and clears a blocking CrashOnAuditFail state. |
 | [`Disable-SMBv1`](./Disable-SMBv1) | Disables the SMBv1 client driver and the SMBv1 server on workstations and verifies both stay off. |
 | [`Remove-StaleCredentialEntries`](./Remove-StaleCredentialEntries) | Removes Credential Manager entries that still point to retired servers or shares. |
+| [`Disable-WinRMBasicAuth`](./Disable-WinRMBasicAuth) | Blocks WinRM Basic authentication and unencrypted traffic on the client and the service side and verifies the result. |
 
 ### Intune agent and device health
 
@@ -255,6 +256,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-TeamsAutoStart`](./Set-TeamsAutoStart) | Enable and verify the new Teams startup task for the signed-in user so the client starts at logon. |
 | [`Remediate-OutlookOstSize`](./Remediate-OutlookOstSize) | Measures OST files of loaded Outlook profiles and disables shared folder caching when no policy value exists. |
 | [`Remediate-TeamsFirewallPrompt`](./Remediate-TeamsFirewallPrompt) | Adds machine wide inbound firewall allow rules for Microsoft Teams and removes leftover Query User block rules on shared PCs. |
+| [`Remediate-TeamsCache`](./Remediate-TeamsCache) | Clear the new Microsoft Teams cache of the signed-in user when it grows past a size threshold. |
 
 ### Network and VPN
 
