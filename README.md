@@ -131,6 +131,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Disable-SMBv1`](./Disable-SMBv1) | Disables the SMBv1 client driver and the SMBv1 server on workstations and verifies both stay off. |
 | [`Remove-StaleCredentialEntries`](./Remove-StaleCredentialEntries) | Removes Credential Manager entries that still point to retired servers or shares. |
 | [`Disable-WinRMBasicAuth`](./Disable-WinRMBasicAuth) | Blocks WinRM Basic authentication and unencrypted traffic on the client and the service side and verifies the result. |
+| [`Enable-CertPaddingCheck`](./Enable-CertPaddingCheck) | Enables the WinVerifyTrust certificate padding check in both registry locations to close CVE-2013-3900 findings. |
 
 ### Intune agent and device health
 
