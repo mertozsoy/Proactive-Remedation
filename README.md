@@ -153,6 +153,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-TpmHealthAttestation`](./Remediate-TpmHealthAttestation) | Triggers TPM health attestation certificate retrieval when the cached certificate is missing or stale. |
 | [`Repair-Msiexec1618`](./Repair-Msiexec1618) | Clear a hung msiexec process and a stale Windows Installer InProgress key that blocks MSI installs with error 1618. |
 | [`Set-DefenderNetworkProtection`](./Set-DefenderNetworkProtection) | Put Microsoft Defender network protection into block mode and leave policy-managed values untouched. |
+| [`Remove-SavedBrowserPasswords`](./Remove-SavedBrowserPasswords) | Count and remove passwords saved in Edge and Chrome profiles after a managed password manager rollout. |
 
 ### Intune agent and device health
 
