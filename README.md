@@ -293,6 +293,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-OutlookAutodiscover`](./Remediate-OutlookAutodiscover) | Sets the Outlook Autodiscover DWORDs so hybrid clients stop using the root domain and the Microsoft 365 endpoint. |
 | [`Repair-M365AppsActivation`](./Repair-M365AppsActivation) | Resets broken Microsoft 365 Apps license files so Office activates again. |
 | [`Remove-OrphanedOutlookOst`](./Remove-OrphanedOutlookOst) | Remove reviewed orphaned Outlook OST files using explicit filename and SHA256 approval. |
+| [`Remediate-OutlookAddins`](./Remediate-OutlookAddins) | Turns business-critical Outlook COM add-ins back on and adds them to the do-not-disable allow list so Outlook stops disabling them for slow startup. |
 
 ### Network and VPN
 
