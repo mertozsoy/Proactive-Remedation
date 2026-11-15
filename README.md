@@ -177,6 +177,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-AudioDevice`](./Repair-AudioDevice) | Remove audio devices in a problem state and rescan the device tree. |
 | [`Repair-DisplaySettings`](./Repair-DisplaySettings) | Restore the Connected Devices Platform service start types so Display settings load again. |
 | [`Repair-WmiRepository`](./Repair-WmiRepository) | Verify WMI repository consistency and salvage confirmed corruption. |
+| [`Remediate-AudioServices`](./Remediate-AudioServices) | Starts the Windows Audio and Audio Endpoint Builder services when they are stopped or disabled. |
 
 ### OneDrive
 
