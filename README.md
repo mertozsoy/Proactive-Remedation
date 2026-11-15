@@ -168,6 +168,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-OmadmClient`](./Remediate-OmadmClient) | Terminate omadmclient.exe processes that stayed running past the sync threshold. |
 | [`Remove-DeliveryOptimizationBypass`](./Remove-DeliveryOptimizationBypass) | Remove a leftover Delivery Optimization DownloadMode value of 99 or 100 so Win32 app downloads use the Delivery Optimization service again. |
 | [`Repair-AudioDevice`](./Repair-AudioDevice) | Remove audio devices in a problem state and rescan the device tree. |
+| [`Repair-DisplaySettings`](./Repair-DisplaySettings) | Restore the Connected Devices Platform service start types so Display settings load again. |
 
 ### OneDrive
 
