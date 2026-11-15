@@ -173,6 +173,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-WindowsUpdateServiceStart`](./Repair-WindowsUpdateServiceStart) | Restore disabled Windows Update service startup modes without resetting update components. |
 | [`Remove-WUDriverExclusion`](./Remove-WUDriverExclusion) | Remove a retired Windows Update driver exclusion after policy review and backup. |
 | [`Remediate-Windows10Esu`](./Remediate-Windows10Esu) | Install and activate the Windows 10 ESU MAK key and verify the license state. |
+| [`Enable-MicrosoftUpdateService`](./Enable-MicrosoftUpdateService) | Register the Microsoft Update service so Office and driver updates are offered to the device. |
 
 ### User experience
 
