@@ -293,6 +293,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-Wired8021XProfile`](./Repair-Wired8021XProfile) | Restores the wired 802.1X profile from an approved LAN profile XML when a feature update clears the dot3svc profile store. |
 | [`Remove-StaleVpnConnections`](./Remove-StaleVpnConnections) | Removes duplicate and retired VPN entries from the user phone book and keeps one working connection per name. |
 | [`Remove-StaleProxySettings`](./Remove-StaleProxySettings) | Remove explicitly retired default WinHTTP and saved WinINET proxy settings after approval. |
+| [`Disable-Wpad`](./Disable-Wpad) | Disable WinHTTP WPAD auto-discovery without disabling its service. |
 
 ### Inventory & reporting (detection-only)
 
