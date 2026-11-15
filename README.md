@@ -292,6 +292,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-OrphanUninstallKeys`](./Remove-OrphanUninstallKeys) | Remove orphaned uninstall registry keys left by deleted applications after a registry backup. |
 | [`Report-NetworkPstFiles`](./Report-NetworkPstFiles) | Scans network share roots and mapped drives for Outlook PST files and reports their count and size. |
 | [`Report-UsbStorageMounted`](./Report-UsbStorageMounted) | Checks the USB storage block settings and reports USB disks that are still present or mounted. |
+| [`Report-WorkAccounts`](./Report-WorkAccounts) | Collects work accounts from Entra ID profiles, Office identities and MDM enrollments and flags foreign domains. |
 
 ### Utilities (not a Detect/Remediate pair)
 
