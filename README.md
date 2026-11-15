@@ -302,6 +302,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-M365AppsActivation`](./Repair-M365AppsActivation) | Resets broken Microsoft 365 Apps license files so Office activates again. |
 | [`Remove-OrphanedOutlookOst`](./Remove-OrphanedOutlookOst) | Remove reviewed orphaned Outlook OST files using explicit filename and SHA256 approval. |
 | [`Remediate-OutlookAddins`](./Remediate-OutlookAddins) | Turns business-critical Outlook COM add-ins back on and adds them to the do-not-disable allow list so Outlook stops disabling them for slow startup. |
+| [`Repair-ClickToRunService`](./Repair-ClickToRunService) | Start the Microsoft Office Click-to-Run service and restore its automatic startup type when it is stopped or disabled. |
 
 ### Network and VPN
 
