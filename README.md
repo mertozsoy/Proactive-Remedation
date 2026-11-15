@@ -233,6 +233,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-OutlookBrowserLinks`](./Remediate-OutlookBrowserLinks) | Points classic Outlook back to the Windows default browser by fixing the per-user link preference that Microsoft 365 Business plans cannot manage with policy. |
 | [`Enable-TeamsOutlookNotifications`](./Enable-TeamsOutlookNotifications) | Turns per-user Teams and Outlook desktop notifications back on when Windows notification settings disabled them. |
 | [`Set-TeamsAutoStart`](./Set-TeamsAutoStart) | Enable and verify the new Teams startup task for the signed-in user so the client starts at logon. |
+| [`Remediate-OutlookOstSize`](./Remediate-OutlookOstSize) | Measures OST files of loaded Outlook profiles and disables shared folder caching when no policy value exists. |
 
 ### Network and VPN
 
