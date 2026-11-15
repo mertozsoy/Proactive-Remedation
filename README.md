@@ -189,6 +189,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-Windows10Esu`](./Remediate-Windows10Esu) | Install and activate the Windows 10 ESU MAK key and verify the license state. |
 | [`Enable-MicrosoftUpdateService`](./Enable-MicrosoftUpdateService) | Register the Microsoft Update service so Office and driver updates are offered to the device. |
 | [`Enable-Wlidsvc`](./Enable-Wlidsvc) | Restore a disabled Microsoft Account Sign-in Assistant service so feature updates are offered again. |
+| [`Enable-RestartNotifications`](./Enable-RestartNotifications) | Turn on the pending restart notification toggle for Windows Update on existing devices. |
 
 ### User experience
 
