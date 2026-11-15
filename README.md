@@ -202,6 +202,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Enable-Wlidsvc`](./Enable-Wlidsvc) | Restore a disabled Microsoft Account Sign-in Assistant service so feature updates are offered again. |
 | [`Enable-RestartNotifications`](./Enable-RestartNotifications) | Turn on the pending restart notification toggle for Windows Update on existing devices. |
 | [`Remove-DuplicateProfileEntries`](./Remove-DuplicateProfileEntries) | Detect duplicate ProfileList entries and remove approved duplicates after backup and safety checks. |
+| [`Report-WinREPartitionSize`](./Report-WinREPartitionSize) | Reads the WinRE partition size and free space and flags devices below the 250 MB servicing requirement. |
 
 ### User experience
 
