@@ -221,6 +221,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-LegacyRemoteDesktopClient`](./Remove-LegacyRemoteDesktopClient) | Remove the retired Remote Desktop Store app and MSI client after the move to Windows App. |
 | [`Remove-DuplicateOneDriveEntry`](./Remove-DuplicateOneDriveEntry) | Remove a duplicate OneDrive registration from the File Explorer navigation pane. |
 | [`Remove-DuplicateDesktopShortcuts`](./Remove-DuplicateDesktopShortcuts) | Removes copy shortcuts such as Microsoft Edge - Copy or Teams (2) when the original shortcut still exists on the desktop. |
+| [`Enable-ExplorerThumbnails`](./Enable-ExplorerThumbnails) | Turn Explorer thumbnail previews back on for the signed-in user and report policy-forced icon-only mode. |
 
 ### Disk cleanup
 
