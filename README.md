@@ -272,6 +272,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-VpnLeftDns`](./Remediate-VpnLeftDns) | Reset static DNS servers left on physical adapters by a VPN client and verify the DHCP DNS list. |
 | [`Remediate-AovpnAutoConnect`](./Remediate-AovpnAutoConnect) | Remove Always On VPN profile names from AutoTriggerDisabledProfilesList so auto-connect works again. |
 | [`Disable-OpenWifiAutoConnect`](./Disable-OpenWifiAutoConnect) | Switches unsecured Wi-Fi profiles from auto-connect to manual on managed devices. |
+| [`Repair-Wired8021XProfile`](./Repair-Wired8021XProfile) | Restores the wired 802.1X profile from an approved LAN profile XML when a feature update clears the dot3svc profile store. |
 
 ### Inventory & reporting (detection-only)
 
