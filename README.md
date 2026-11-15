@@ -270,6 +270,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-WerCrashReports`](./Remove-WerCrashReports) | Clears old Windows Error Reporting queue items and per-user crash dump files before they fill the system disk. |
 | [`Remediate-OfficeFileCache`](./Remediate-OfficeFileCache) | Measures the Office document cache in the user profile and clears it when it grows past the threshold. |
 | [`Remove-CbsLogFiles`](./Remove-CbsLogFiles) | Removes old CbsPersist log files from C:\Windows\Logs\CBS when the folder grows large enough to fill the system disk. |
+| [`Disable-DesktopHibernation`](./Disable-DesktopHibernation) | Removes or shrinks the unused hiberfil.sys file on desktop devices to free disk space. |
 
 ### Office and Teams
 
