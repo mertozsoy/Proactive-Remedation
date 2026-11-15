@@ -124,6 +124,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-DevicePrimaryUserAdmin`](./Set-DevicePrimaryUserAdmin) | Grant local admin only to the mapped user of each device when the profile exists. |
 | [`Remediate-SmartScreen`](./Remediate-SmartScreen) | Turn Microsoft Defender SmartScreen back on when the device or Edge setting is disabled. |
 | [`Set-NtlmV2Level`](./Set-NtlmV2Level) | Raise LmCompatibilityLevel to 5 so clients send NTLMv2 only and refuse LM and NTLM. |
+| [`Remove-StaleFirewallRules`](./Remove-StaleFirewallRules) | Removes local firewall allow rules that point to missing programs or services or were created by users outside policy. |
 
 ### Intune agent and device health
 
