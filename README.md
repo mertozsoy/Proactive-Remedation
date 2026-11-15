@@ -128,6 +128,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-SystemRestoreStorage`](./Set-SystemRestoreStorage) | Cap oversized System Restore shadow copy storage on protected volumes and verify the new limit. |
 | [`Remediate-PageFileSettings`](./Remediate-PageFileSettings) | Restore system managed page file settings and verify automatic management is back on. |
 | [`Remediate-SecurityLogFull`](./Remediate-SecurityLogFull) | Restores circular logging on a full Security event log and clears a blocking CrashOnAuditFail state. |
+| [`Disable-SMBv1`](./Disable-SMBv1) | Disables the SMBv1 client driver and the SMBv1 server on workstations and verifies both stay off. |
 
 ### Intune agent and device health
 
