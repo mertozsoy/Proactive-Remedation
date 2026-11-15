@@ -207,6 +207,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-DisplayScaling`](./Set-DisplayScaling) | Return the signed-in user to per-monitor display scaling when a forced single scale is leaving a docked external monitor unreadable. |
 | [`Repair-EdgeProfileSelection`](./Repair-EdgeProfileSelection) | Repair Edge profile selection and pinned shortcuts that open the wrong profile. |
 | [`Set-DefaultPrinter`](./Set-DefaultPrinter) | Pin the approved default printer for the signed-in user and turn off Windows default printer management. |
+| [`Repair-OfficeEdgeShortcuts`](./Repair-OfficeEdgeShortcuts) | Repair broken Office and Edge Start menu shortcuts across profiles and recreate missing ones. |
 
 ### Disk cleanup
 
