@@ -77,38 +77,6 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Detect-EFIPartition`](./Detect-EFIPartition) | Detects low free space on the EFI System Partition and can clean up HP firmware update leftovers |
 | [`Remove-ClassicTeamsUninstallKey`](./Remove-ClassicTeamsUninstallKey) | Removes the stale uninstall registry key left behind by classic Microsoft Teams, across all user profiles |
 | [`Remediate-WindowsUpdate`](./Remediate-WindowsUpdate) | Full Windows Update component reset (services, caches, DLL registration, Winsock) plus SetupDiag diagnostics |
-| [`Disable-LLMNR-NetBIOS`](./Disable-LLMNR-NetBIOS) | Keeps LLMNR and NetBIOS over TCP/IP turned off on every adapter |
-| [`Remove-PowerShellV2`](./Remove-PowerShellV2) | Removes the Windows PowerShell 2.0 engine |
-| [`Remove-WSUSPolicyLeftovers`](./Remove-WSUSPolicyLeftovers) | Removes old WSUS values that block Windows Update for Business |
-| [`Remove-StaleUserProfiles`](./Remove-StaleUserProfiles) | Finds and removes local profiles not used for 90 days (report mode by default) |
-| [`Detect-RemoteAccessTools`](./Detect-RemoteAccessTools) | Finds installed or portable remote access tools (detection only) |
-| [`Remediate-BitLockerProtection`](./Remediate-BitLockerProtection) | Backs up missing recovery keys to Entra ID and handles BitLocker left suspended |
-| [`Remediate-SecureBootCA2023`](./Remediate-SecureBootCA2023) | Checks and starts the move to the 2023 Secure Boot certificates |
-| [`Remediate-NtlmV1SsoReadiness`](./Remediate-NtlmV1SsoReadiness) | Reports NTLMv1 SSO use and manages time limited audit exceptions |
-| [`Remediate-WindowsLAPS`](./Remediate-WindowsLAPS) | Makes sure the LAPS password is backed up to Entra ID or AD |
-| [`Update-DefenderSecurityIntelligence`](./Update-DefenderSecurityIntelligence) | Updates old Defender signatures with source fallback |
-| [`Remediate-MDESensorHealth`](./Remediate-MDESensorHealth) | Brings back the Sense and DiagTrack services the MDE sensor needs |
-| [`Remediate-TimeSync`](./Remediate-TimeSync) | Repairs Windows time synchronization |
-| [`Remediate-WinRE`](./Remediate-WinRE) | Turns Windows Recovery Environment back on |
-| [`Remediate-WindowsActivation`](./Remediate-WindowsActivation) | Retries Windows activation without changing the product key |
-| [`Repair-LapsAccount`](./Repair-LapsAccount) | Creates or enables the local admin account that Windows LAPS manages |
-| [`Disable-LegacyTls`](./Disable-LegacyTls) | Turns off TLS 1.0 and 1.1 for SCHANNEL and .NET |
-| [`Disable-HelloPostLogonPrompt`](./Disable-HelloPostLogonPrompt) | Stops the forced Windows Hello PIN setup screen after sign-in |
-| [`Remove-BrowserExtension`](./Remove-BrowserExtension) | Removes one known bad browser extension from every profile |
-
-### Intune agent and device health
-
-| Folder | Purpose |
-|---|---|
-| [`Remediate-IMEHealth`](./Remediate-IMEHealth) | Restarts an Intune Management Extension that stopped processing |
-| [`Remediate-MDMSyncHealth`](./Remediate-MDMSyncHealth) | Repairs the MDM sync prerequisites and starts a sync |
-| [`Remediate-HybridJoinState`](./Remediate-HybridJoinState) | Finds hybrid devices that never finished Entra join |
-| [`Remediate-ServicingPipelineHealth`](./Remediate-ServicingPipelineHealth) | Fixes devices that show as Unknown in WUfB, Autopatch and Secure Boot reports |
-| [`Remediate-TeamsMeetingAddin`](./Remediate-TeamsMeetingAddin) | Repairs the Teams Meeting add-in in classic Outlook (user context) |
-| [`Repair-FailedWin32Apps`](./Repair-FailedWin32Apps) | Clears the IME retry state so failed Win32 apps install again |
-| [`Repair-RequiredApps`](./Repair-RequiredApps) | Brings back a required app that the user uninstalled |
-| [`Enable-MDMSyncTasks`](./Enable-MDMSyncTasks) | Turns disabled Task Scheduler and MDM sync tasks back on |
-| [`Remove-LegacyCompanyPortal`](./Remove-LegacyCompanyPortal) | Removes the per-user Company Portal that blocks the system install |
 
 ### OneDrive
 
@@ -116,33 +84,6 @@ Folder names are prefixed by what the package **does**, so related packages sort
 |---|---|
 | [`Remediate-OneDriveHealth`](./Remediate-OneDriveHealth) | Detects a broken/signed-out OneDrive sync and attempts a full self-heal |
 | [`Remediate-OneDriveStartup`](./Remediate-OneDriveStartup) | Ensures OneDrive is registered to launch automatically at sign-in |
-| [`Repair-OneDriveKfm`](./Repair-OneDriveKfm) | Starts Known Folder Move again when Desktop and Documents are not redirected |
-
-### Windows Update
-
-| Folder | Purpose |
-|---|---|
-| [`Remove-TargetReleaseVersionPin`](./Remove-TargetReleaseVersionPin) | Removes a leftover TargetReleaseVersion pin that blocks feature updates |
-| [`Remove-WUInternetLocationBlock`](./Remove-WUInternetLocationBlock) | Removes the WSUS value that blocks Store and Company Portal installs |
-| [`Remediate-DeliveryOptimizationCache`](./Remediate-DeliveryOptimizationCache) | Cleans an oversized Delivery Optimization cache |
-
-### User experience
-
-| Folder | Purpose |
-|---|---|
-| [`Enable-AutoTimeZone`](./Enable-AutoTimeZone) | Turns on automatic time zone and the location access it needs |
-| [`Add-CompanyShortcuts`](./Add-CompanyShortcuts) | Adds the standard company shortcuts when they are missing (user context) |
-| [`Remove-PublicDesktopShortcuts`](./Remove-PublicDesktopShortcuts) | Removes unwanted shortcuts from the Public Desktop |
-| [`Remove-SpotlightDesktopIcon`](./Remove-SpotlightDesktopIcon) | Removes the Windows Spotlight Learn about this picture icon |
-| [`Repair-InboxApps`](./Repair-InboxApps) | Restores missing Notepad, Snipping Tool, Calculator and Store (user context) |
-| [`Repair-NetworkDrives`](./Repair-NetworkDrives) | Maps missing network drives again in the user session |
-| [`Set-AcPowerTimeouts`](./Set-AcPowerTimeouts) | Sets sleep and display timeouts on docked and meeting room devices |
-
-### Disk cleanup
-
-| Folder | Purpose |
-|---|---|
-| [`Remove-DellSupportAssistSnapshots`](./Remove-DellSupportAssistSnapshots) | Removes Dell SupportAssist recovery snapshots that fill the disk |
 
 ### Inventory & reporting (detection-only)
 
@@ -150,13 +91,6 @@ Folder names are prefixed by what the package **does**, so related packages sort
 |---|---|
 | [`Inventory-DefaultBrowser`](./Inventory-DefaultBrowser) | Reports the logged-on user's default browser via Intune reporting |
 | [`Report-DeviceUptime`](./Report-DeviceUptime) | Reports device uptime since last reboot via Intune reporting |
-| [`Report-PendingReboot`](./Report-PendingReboot) | Shows devices waiting for a restart and the reason |
-| [`Report-FeatureUpdateReadiness`](./Report-FeatureUpdateReadiness) | Shows safeguard holds, blockers and end of servicing; refreshes old appraiser data |
-| [`Report-CertificateExpiry`](./Report-CertificateExpiry) | Lists machine certificates and the Intune MDM certificate close to expiry |
-| [`Report-DiskHealth`](./Report-DiskHealth) | Reports failing or worn physical disks |
-| [`Report-HardwareInventory`](./Report-HardwareInventory) | Collects BIOS, TPM, battery and other hardware details as one JSON line |
-| [`Report-BrowserExtensions`](./Report-BrowserExtensions) | Lists Edge and Chrome extensions that are not on the approved list |
-| [`Report-MdmDeviceCertificates`](./Report-MdmDeviceCertificates) | Reports duplicate and expired Intune MDM device certificates |
 
 ### Utilities (not a Detect/Remediate pair)
 
