@@ -217,6 +217,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Set-DefaultPrinter`](./Set-DefaultPrinter) | Pin the approved default printer for the signed-in user and turn off Windows default printer management. |
 | [`Repair-OfficeEdgeShortcuts`](./Repair-OfficeEdgeShortcuts) | Repair broken Office and Edge Start menu shortcuts across profiles and recreate missing ones. |
 | [`Remove-LegacyRemoteDesktopClient`](./Remove-LegacyRemoteDesktopClient) | Remove the retired Remote Desktop Store app and MSI client after the move to Windows App. |
+| [`Remove-DuplicateOneDriveEntry`](./Remove-DuplicateOneDriveEntry) | Remove a duplicate OneDrive registration from the File Explorer navigation pane. |
 
 ### Disk cleanup
 
