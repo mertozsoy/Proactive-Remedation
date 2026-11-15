@@ -260,6 +260,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-SupersededDrivers`](./Remove-SupersededDrivers) | Removes older third-party driver packages from the driver store when a newer version of the same driver is present. |
 | [`Remove-SoftwareDistributionBackups`](./Remove-SoftwareDistributionBackups) | Removes stale SoftwareDistribution.old and catroot2.old folders left by earlier Windows Update repairs. |
 | [`Remediate-DirtyVolume`](./Remediate-DirtyVolume) | Schedules a boot time chkdsk for NTFS volumes that carry the dirty bit. |
+| [`Remove-CrashDumps`](./Remove-CrashDumps) | Deletes kernel crash dump files older than a set age to free disk space. |
 
 ### Office and Teams
 
