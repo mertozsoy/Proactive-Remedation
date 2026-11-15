@@ -225,6 +225,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-OneDriveDiskSpace`](./Remediate-OneDriveDiskSpace) | Frees local disk space by converting locally available OneDrive files to online-only when free space is low. |
 | [`Remove-WinGetComLogs`](./Remove-WinGetComLogs) | Removes oversized WinGet COM log files from C:\Windows\Temp\WinGet before they fill the system disk. |
 | [`Remove-OrphanedInstallerFiles`](./Remove-OrphanedInstallerFiles) | Removes MSI and MSP files in the Windows Installer cache that no registered product or patch references. |
+| [`Remove-SupersededDrivers`](./Remove-SupersededDrivers) | Removes older third-party driver packages from the driver store when a newer version of the same driver is present. |
 
 ### Office and Teams
 
