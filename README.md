@@ -187,6 +187,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-DisplaySettings`](./Repair-DisplaySettings) | Restore the Connected Devices Platform service start types so Display settings load again. |
 | [`Repair-WmiRepository`](./Repair-WmiRepository) | Verify WMI repository consistency and salvage confirmed corruption. |
 | [`Remediate-AudioServices`](./Remediate-AudioServices) | Starts the Windows Audio and Audio Endpoint Builder services when they are stopped or disabled. |
+| [`Remediate-StaleGroupPolicy`](./Remediate-StaleGroupPolicy) | Refreshes Group Policy on domain joined devices when policy processing has not completed for several days. |
 
 ### OneDrive
 
