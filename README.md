@@ -137,6 +137,8 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-RegistryPol`](./Repair-RegistryPol) | Rebuilds a corrupt local Registry.pol so Group Policy processing starts again. |
 | [`Repair-AdSecureChannel`](./Repair-AdSecureChannel) | Test and repair the AD secure channel on hybrid Windows workstations. |
 | [`Repair-CameraDriverRollback`](./Repair-CameraDriverRollback) | Roll back a known bad camera driver and verify the approved version. |
+| [`Remove-ExpiredPersonalCertificates`](./Remove-ExpiredPersonalCertificates) | Back up and remove approved expired personal-store certificates while retaining private keys. |
+| [`Remove-BlocklistedRootCAs`](./Remove-BlocklistedRootCAs) | Back up and remove explicitly blocklisted unmanaged machine root certificates. |
 
 ### Intune agent and device health
 
