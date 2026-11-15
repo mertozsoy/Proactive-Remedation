@@ -325,6 +325,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-AovpnDeviceTunnel`](./Repair-AovpnDeviceTunnel) | Recreate a missing script-owned Always On VPN device tunnel from approved ProfileXML. |
 | [`Repair-ZscalerClientConnector`](./Repair-ZscalerClientConnector) | Start the Zscaler Client Connector service and restore its automatic startup type when it is stopped or disabled. |
 | [`Enable-WinHttpAutoProxy`](./Enable-WinHttpAutoProxy) | Put the WinHTTP Auto-Proxy service back to Manual so Windows Connection Manager starts again on 24H2 devices. |
+| [`Enable-NetworkAutoConfig`](./Enable-NetworkAutoConfig) | Restore disabled Wired AutoConfig and WLAN AutoConfig services so 802.1X and Wi-Fi work again. |
 
 ### Inventory & reporting (detection-only)
 
