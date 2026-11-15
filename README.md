@@ -269,6 +269,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-CrashDumps`](./Remove-CrashDumps) | Deletes kernel crash dump files older than a set age to free disk space. |
 | [`Remove-WerCrashReports`](./Remove-WerCrashReports) | Clears old Windows Error Reporting queue items and per-user crash dump files before they fill the system disk. |
 | [`Remediate-OfficeFileCache`](./Remediate-OfficeFileCache) | Measures the Office document cache in the user profile and clears it when it grows past the threshold. |
+| [`Remove-CbsLogFiles`](./Remove-CbsLogFiles) | Removes old CbsPersist log files from C:\Windows\Logs\CBS when the folder grows large enough to fill the system disk. |
 
 ### Office and Teams
 
@@ -319,6 +320,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-StaleProxySettings`](./Remove-StaleProxySettings) | Remove explicitly retired default WinHTTP and saved WinINET proxy settings after approval. |
 | [`Disable-Wpad`](./Disable-Wpad) | Disable WinHTTP WPAD auto-discovery without disabling its service. |
 | [`Repair-AovpnDeviceTunnel`](./Repair-AovpnDeviceTunnel) | Recreate a missing script-owned Always On VPN device tunnel from approved ProfileXML. |
+| [`Repair-ZscalerClientConnector`](./Repair-ZscalerClientConnector) | Start the Zscaler Client Connector service and restore its automatic startup type when it is stopped or disabled. |
 
 ### Inventory & reporting (detection-only)
 
