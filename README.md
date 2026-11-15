@@ -254,6 +254,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-TemporaryWifiProfile`](./Remove-TemporaryWifiProfile) | Removes temporary onboarding Wi-Fi profiles left on the device after provisioning. |
 | [`Disable-DockNicPowerSaving`](./Disable-DockNicPowerSaving) | Turn off NIC power saving and Energy Efficient Ethernet on dock and USB-C Ethernet adapters. |
 | [`Disable-DockPowerSaving`](./Disable-DockPowerSaving) | Turn off PCI Express link state power management and USB selective suspend in the active power scheme so dock Ethernet and USB devices survive sleep. |
+| [`Remediate-VpnLeftDns`](./Remediate-VpnLeftDns) | Reset static DNS servers left on physical adapters by a VPN client and verify the DHCP DNS list. |
 
 ### Inventory & reporting (detection-only)
 
