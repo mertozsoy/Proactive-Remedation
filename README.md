@@ -227,6 +227,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remove-DuplicateDesktopShortcuts`](./Remove-DuplicateDesktopShortcuts) | Removes copy shortcuts such as Microsoft Edge - Copy or Teams (2) when the original shortcut still exists on the desktop. |
 | [`Enable-ExplorerThumbnails`](./Enable-ExplorerThumbnails) | Turn Explorer thumbnail previews back on for the signed-in user and report policy-forced icon-only mode. |
 | [`Disable-StartupSound`](./Disable-StartupSound) | Turns off the Windows startup sound on managed devices with the policy registry value. |
+| [`Repair-HttpsProtocolAssociation`](./Repair-HttpsProtocolAssociation) | Repair http and https protocol associations that point to a missing handler. |
 
 ### Disk cleanup
 
