@@ -142,6 +142,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Repair-TaskCache`](./Repair-TaskCache) | Remove approved orphaned TaskCache records after backup and verify task enumeration. |
 | [`Remove-LegacyLaps`](./Remove-LegacyLaps) | Remove approved legacy LAPS remnants after native Windows LAPS migration. |
 | [`Remediate-CameraMicAccess`](./Remediate-CameraMicAccess) | Turns camera and microphone app access back on when the user switched it off in Windows privacy settings. |
+| [`Repair-BluetoothSupportService`](./Repair-BluetoothSupportService) | Start the Bluetooth Support Service and restore its manual startup type when it is stopped or disabled. |
 
 ### Intune agent and device health
 
