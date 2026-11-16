@@ -85,6 +85,12 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-OneDriveHealth`](./Remediate-OneDriveHealth) | Detects a broken/signed-out OneDrive sync and attempts a full self-heal |
 | [`Remediate-OneDriveStartup`](./Remediate-OneDriveStartup) | Ensures OneDrive is registered to launch automatically at sign-in |
 
+### Office and Teams
+
+| Folder | Purpose |
+|---|---|
+| [`Remediate-TeamsCache`](./Remediate-TeamsCache) | Clear the new Microsoft Teams cache of the signed-in user when it grows past a size threshold. |
+
 ### Inventory & reporting (detection-only)
 
 | Folder | Purpose |
