@@ -85,6 +85,12 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-OneDriveHealth`](./Remediate-OneDriveHealth) | Detects a broken/signed-out OneDrive sync and attempts a full self-heal |
 | [`Remediate-OneDriveStartup`](./Remediate-OneDriveStartup) | Ensures OneDrive is registered to launch automatically at sign-in |
 
+### User experience
+
+| Folder | Purpose |
+|---|---|
+| [`Remove-DuplicateOneDriveEntry`](./Remove-DuplicateOneDriveEntry) | Remove a duplicate OneDrive registration from the File Explorer navigation pane. |
+
 ### Office and Teams
 
 | Folder | Purpose |
