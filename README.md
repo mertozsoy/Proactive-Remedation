@@ -90,6 +90,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | Folder | Purpose |
 |---|---|
 | [`Remove-DuplicateOneDriveEntry`](./Remove-DuplicateOneDriveEntry) | Remove a duplicate OneDrive registration from the File Explorer navigation pane. |
+| [`Remove-DuplicateDesktopShortcuts`](./Remove-DuplicateDesktopShortcuts) | Removes copy shortcuts such as Microsoft Edge - Copy or Teams (2) when the original shortcut still exists on the desktop. |
 
 ### Office and Teams
 
