@@ -77,6 +77,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Detect-EFIPartition`](./Detect-EFIPartition) | Detects low free space on the EFI System Partition and can clean up HP firmware update leftovers |
 | [`Remove-ClassicTeamsUninstallKey`](./Remove-ClassicTeamsUninstallKey) | Removes the stale uninstall registry key left behind by classic Microsoft Teams, across all user profiles |
 | [`Remediate-WindowsUpdate`](./Remediate-WindowsUpdate) | Full Windows Update component reset (services, caches, DLL registration, Winsock) plus SetupDiag diagnostics |
+| [`Enable-CertPaddingCheck`](./Enable-CertPaddingCheck) | Enables the WinVerifyTrust certificate padding check in both registry locations to close CVE-2013-3900 findings. |
 
 ### OneDrive
 
