@@ -87,6 +87,12 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-OneDriveHealth`](./Remediate-OneDriveHealth) | Detects a broken/signed-out OneDrive sync and attempts a full self-heal |
 | [`Remediate-OneDriveStartup`](./Remediate-OneDriveStartup) | Ensures OneDrive is registered to launch automatically at sign-in |
 
+### Windows Update
+
+| Folder | Purpose |
+|---|---|
+| [`Enable-RestartNotifications`](./Enable-RestartNotifications) | Turn on the pending restart notification toggle for Windows Update on existing devices. |
+
 ### User experience
 
 | Folder | Purpose |
