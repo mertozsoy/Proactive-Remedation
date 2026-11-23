@@ -79,6 +79,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Remediate-WindowsUpdate`](./Remediate-WindowsUpdate) | Full Windows Update component reset (services, caches, DLL registration, Winsock) plus SetupDiag diagnostics |
 | [`Enable-CertPaddingCheck`](./Enable-CertPaddingCheck) | Enables the WinVerifyTrust certificate padding check in both registry locations to close CVE-2013-3900 findings. |
 | [`Disable-WorkplaceJoin`](./Disable-WorkplaceJoin) | Blocks personal Workplace Join on corporate devices with the BlockAADWorkplaceJoin policy value and verifies it. |
+| [`Disable-RemoteRegistry`](./Disable-RemoteRegistry) | Disables the Remote Registry service on Windows clients, stops it when running and verifies the result. |
 
 ### OneDrive
 
