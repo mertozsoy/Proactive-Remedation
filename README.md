@@ -80,6 +80,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Enable-CertPaddingCheck`](./Enable-CertPaddingCheck) | Enables the WinVerifyTrust certificate padding check in both registry locations to close CVE-2013-3900 findings. |
 | [`Disable-WorkplaceJoin`](./Disable-WorkplaceJoin) | Blocks personal Workplace Join on corporate devices with the BlockAADWorkplaceJoin policy value and verifies it. |
 | [`Disable-RemoteRegistry`](./Disable-RemoteRegistry) | Disables the Remote Registry service on Windows clients, stops it when running and verifies the result. |
+| [`Repair-RegistryPol`](./Repair-RegistryPol) | Rebuilds a corrupt local Registry.pol so Group Policy processing starts again. |
 
 ### OneDrive
 
