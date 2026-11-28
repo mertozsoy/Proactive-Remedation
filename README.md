@@ -110,6 +110,7 @@ Folder names are prefixed by what the package **does**, so related packages sort
 | [`Enable-ExplorerThumbnails`](./Enable-ExplorerThumbnails) | Turn Explorer thumbnail previews back on for the signed-in user and report policy-forced icon-only mode. |
 | [`Disable-StartupSound`](./Disable-StartupSound) | Turns off the Windows startup sound on managed devices with the policy registry value. |
 | [`Repair-HttpsProtocolAssociation`](./Repair-HttpsProtocolAssociation) | Repair http and https protocol associations that point to a missing handler. |
+| [`Remediate-PublicDesktopAcl`](./Remediate-PublicDesktopAcl) | Grants the built-in Users group delete rights on the Public Desktop folder so users can remove icons that installers leave behind. |
 
 ### Office and Teams
 
